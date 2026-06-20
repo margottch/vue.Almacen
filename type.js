@@ -12,7 +12,7 @@ createApp({
 
         // Credenciales correctas
         const CREDENCIALES = {
-            usuario: 'felix.maldonado',
+            usuario: 'margot.tintaya',
             contrasena: 'itpm2026'
         };
 
@@ -80,8 +80,8 @@ createApp({
                     
                     <form @submit.prevent="login">
                         <div class="mb-3">
-                            <label class="form-label small fw-bold text-secondary">Usuario Docente</label>
-                            <input type="text" v-model="usuarioInput" class="form-control" placeholder="Ej: Margot" required>
+                            <label class="form-label small fw-bold text-secondary">Usuario</label>
+                            <input type="text" v-model="usuarioInput" class="form-control" placeholder="Ej: margot.tintaya" required>
                         </div>
                         <div class="mb-4">
                             <label class="form-label small fw-bold text-secondary">Contraseña</label>
