@@ -81,7 +81,7 @@ createApp({
                     <form @submit.prevent="login">
                         <div class="mb-3">
                             <label class="form-label small fw-bold text-secondary">Usuario Docente</label>
-                            <input type="text" v-model="usuarioInput" class="form-control" placeholder="Ej: felix.maldonado" required>
+                            <input type="text" v-model="usuarioInput" class="form-control" placeholder="Ej: Margot" required>
                         </div>
                         <div class="mb-4">
                             <label class="form-label small fw-bold text-secondary">Contraseña</label>
@@ -99,7 +99,7 @@ createApp({
                 </div>
                 
                 <div class="card-body p-4 text-center">
-                    <p class="mb-1 text-secondary small">Bienvenido, <b>Lic. Félix Maldonado</b>. Inventario verificado por TypeScript:</p>
+                    <p class="mb-1 text-secondary small">Bienvenido, <b>Ana Margot Tintaya</b>. Inventario verificado por TypeScript:</p>
                     <hr />
 
                     <div class="row row-cols-1 row-cols-md-3 g-4 mt-2">
